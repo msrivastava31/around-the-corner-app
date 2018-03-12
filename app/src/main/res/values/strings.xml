@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">around-the-corner-app</string>
+    <string name="title_activity_around_the_corner">Around The Corner</string>
+
+    <string name="category_title">Categories</string>
+    <string name="location_title">Current Location</string>
+</resources>

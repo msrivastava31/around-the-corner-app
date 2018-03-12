@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="base_url">http://AROUND_THE_CORNER_API_URL/place</string>
+</resources>
