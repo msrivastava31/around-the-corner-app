@@ -57,7 +57,10 @@ public class MapPresenterImpl implements MapPresenter {
         }
 
         mPlacePresenter.setCurrentLocation(currentLatLng);
-        adjustCameraZoom();
+
+        if (mPlacePresenter.getPlaces().isEmpty()) {
+            adjustCameraZoom();
+        }
     }
 
     private void clearMap() {
